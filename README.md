@@ -3,6 +3,8 @@
 Crea una aplicación para buscar películas
 
 API a usar: - https://www.omdbapi.com/
+KEY: 7be0d3a8
+END POINT: http://www.omdbapi.com/?apikey=7be0d3a8&s=avenger
 Consigue la API Key en la propia página web registrando tu email.
 
 Requerimientos:
