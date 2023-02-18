@@ -7,6 +7,25 @@
     max-width: 800px;
   }
   
+  header{
+    width: 100%;
+    text-align: center;
+  }
+
+  header input {
+    width: 80%;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+  }
+
+  header button {
+    width: 30%;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+  }
+
   main {
     display: flex;
     justify-content: center;

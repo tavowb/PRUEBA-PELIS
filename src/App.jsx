@@ -39,6 +39,7 @@ function App () {
             style={{ border: error ? '1px solid red' : '1px transparent' }}
             value={search} onChange={handleChange} type='text' placeholder='Avengers, Star Wars, Matrix'
           />
+          <p>ordenar por titulo (A-Z)</p>
           <input type='checkbox' onChange={handleSort} />
           <button type='submit'>Buscar</button>
         </form>

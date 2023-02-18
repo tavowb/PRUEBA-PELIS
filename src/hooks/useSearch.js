@@ -20,11 +20,6 @@ export function useSearch () {
       return
     }
 
-    if (search.match(/^[0-9]+$/)) {
-      setError('No se puede buscar películas con solo números')
-      return
-    }
-
     setError(null)
   }, [search])
 
